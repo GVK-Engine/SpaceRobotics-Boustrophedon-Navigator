@@ -64,19 +64,20 @@ python3 src/first_order_boustrophedon_navigator.py
 
 ---
 
-## 🧩 Key Equations
-**Linear Velocity:**  
-$
-\[
-v = K_p^{lin}(d) + K_d^{lin}\frac{Δd}{Δt}
-\]
-$
-**Angular Velocity:** 
-$
-\[
-ω = K_p^{ang}(θ_{error}) + K_d^{ang}\frac{Δθ}{Δt}
-\]
-$
+### ⚙️ PD Control Equations
+
+**Linear Velocity:**
+
+$$
+v = K_p^{(lin)} \cdot d + K_d^{(lin)} \cdot \frac{\Delta d}{\Delta t}
+$$
+
+**Angular Velocity:**
+
+$$
+\omega = K_p^{(ang)} \cdot \theta_{error} + K_d^{(ang)} \cdot \frac{\Delta \theta}{\Delta t}
+$$
+
 ---
 
 ## 🔧 Tuned PD Parameters
