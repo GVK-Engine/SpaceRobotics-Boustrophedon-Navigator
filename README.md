@@ -94,8 +94,10 @@ v = K_p^{lin}(d) + K_d^{lin}\frac{Δd}{Δt}
 - **Smooth motion** and precise cornering achieved  
 - **Real-time tuning** enabled through `rqt_reconfigure`
 
-![Trajectory](results/trajectory_plot.png)
-![Cross-Track Error](results/cross_track_error.png)
+![Trajectory Result] <img width="472" height="445" alt="Result" src="https://github.com/user-attachments/assets/1ad6b577-89fe-4e8e-ba4f-0ff31ddbaad7" />
+
+![Cross-Track Error](<img width="861" height="431" alt="Cross Track Error" src="https://github.com/user-attachments/assets/54a14042-c9ef-4b55-a92f-49dd5bfed6ad" />
+
 
 ---
 
@@ -122,8 +124,7 @@ v = K_p^{lin}(d) + K_d^{lin}\frac{Δd}{Δt}
 
 ---
 
-## 🧩 Lucid Motors Relevance 🌟
-Demonstrates:
+## Demonstrates:
 - **Control Systems Tuning** (PD loops and gain balancing)  
 - **Autonomous Coverage Planning** (boustrophedon pattern)  
 - **ROS 2 Implementation & Simulation**  
